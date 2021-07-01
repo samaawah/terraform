@@ -1,0 +1,11 @@
+provider "aws" {
+  access_key = "AKIARKZTFTECNGVGC25C"
+  secret_key = "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"
+  region = "us-west-1"
+}
+
+resource "aws_instance" "ArodevWebIns" {
+  ami = var.myami_id
+  instance_type = var.myinstance_type
+
+}

@@ -1,0 +1,10 @@
+variable "myami_id" {
+  default = "ami-04468e03c37242e1e"
+}
+
+variable "myinstance_type" {
+  default = "t2.micro"
+}
+
+
+git clone https://github.com/tantuch19/JJTech-Bliss-Ansible-Tower.git
